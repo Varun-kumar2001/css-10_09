@@ -1,0 +1,76 @@
+
+*{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: white;
+}
+.submain1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    font-size: x-large;
+    top: 0;
+    background-color: white;
+}
+.submain2{
+    font-size: large;
+}
+.leftside *{
+    display: inline;
+    margin: 20px 20px;
+    color: rgb(83, 83, 83);
+}
+.rightside *{
+    padding: 10px 30px;
+    border: 2px solid whitesmoke;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.196);
+    margin: 20px 30px;
+}
+.sessions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subjects{
+    display: flex;
+}
+.subjects p{
+    margin: 10px 40px;
+}
+.day{
+    color: rgb(255, 111, 0);
+    margin: 10px 30px;
+}
+
+.card1{
+    border: 2px solid rgb(202, 202, 202);
+    margin: 20px;
+    border-radius: 10px;
+}
+.session3{
+    color: rgb(255, 111, 0);
+    background-color: rgba(255, 99, 71, 0.337);
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 10px;
+}
+.present{
+    color: green;
+    background-color: rgba(2, 225, 2, 0.181);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 128, 0, 0.838);
+    line-height: 30px;
+}
+.doubt{
+    color: rgb(107, 107, 107);
+    background-color: rgba(251, 238, 93, 0.308);
+    padding: 5px;
+    border-radius: 10px;
+}
+.card1:hover{
+    background-color: whitesmoke;
+}
+
